@@ -4,8 +4,7 @@ document.write('\
 <ul>\
       <div class="block">\
         <center>\
-        <li><img src="KMine Logo.png" height="100">\
-          <li><a href="home.html">Home</a></li>\
+          <li><a href="home.html"><img src="KMine Logo.png" height="100"></a>\
           <li><a href="form.html">Submit</a></li>\
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Adopt!</a>\
                <ul class="dropdown-menu">\
