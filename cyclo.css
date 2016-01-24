@@ -1,0 +1,50 @@
+.main {
+  color: rgba(111,111,111,.8);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(202,204,204,.8);
+}
+
+.main h2 {
+  color: rgb(111,111,111)
+}
+
+.main p {
+  color: rgba(111,111,111,.8);
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav :hover {
+  color: rgb(70,70,70);
+
+}
+
+.nav {
+  background-color: rgb(111,111,111);
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  font-size: 26px;
+  padding: 14px 10px;
+  font-family: 'Quicksand', sans-serif;
+  }
+
+.nav li {
+  display: inline;
+}
+
+.row {
+  max-width: 1000px !important;
+  display:block !important;
+  margin: 0 auto !important;
+}
+
+#dog {
+  margin: 20px 0;
+}

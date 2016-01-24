@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+        <link href"http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700&subset=latin,greek">
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel="stylesheet" href="wdc.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+        <meta http-equiv="refresh" content="1; url=searchresult.html" />
+        
+    </head>
+    
+    <body>
+        <script>
+
+        function getUrlParams() {
+            var params = {};
+            var url = location.href;
+            var querystring = url.substr(url.indexOf('?') + 1);
+            var bits = querystring.split('&');
+            bits.forEach(function(item) {
+                var temp = item.split('=');
+                params[temp[0]] = temp[1]
+            });
+            return params;  
+        }
+
+        // get url 
+
+        var url_params = getUrlParams();
+
+        var search_dog = {
+            breed: url_params.breed,
+            age: url_params.age,
+            weight: url_params.weight
+        };
+        </script>
+
+        //redirect to thank you page 
+    </body>
+    
+</html>
