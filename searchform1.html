@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="refresh" content="1; url=tinder.html" />
+    </head>
+    <body>
+        <script>
+        function getUrlParams() {
+            var params = {};
+            var url = location.href;
+            var querystring = url.substr(url.indexOf('?') + 1);
+            var bits = querystring.split('&');
+            bits.forEach(function(item) {
+                var temp = item.split('=');
+                params[temp[0]] = temp[1]
+            });
+            return params;  
+        }
+
+        // get url 
+
+        var url_params = getUrlParams();
+
+        var search_dog = {
+            breed: url_params.breed,
+            age: url_params.age,
+            weight: url_params.weight
+        };
+        </script>
+
+        //redirect to thank you page 
+    </body>
+    
+</html>
