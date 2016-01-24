@@ -3,7 +3,7 @@ document.write('\
 <div class="nav">\
 <ul>\
       <div class="block">\
-          <li><a href="home.html"><img src="KMine Logo.png" height="100" align="left"></a>\
+          <a href="home.html"><img src="KMine Logo.png" height="100" align="left"></a>\
           <right><li><a href="form.html">Submit</a></li>\
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Adopt!</a>\
                <ul class="dropdown-menu">\
