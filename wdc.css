@@ -49,24 +49,25 @@
 
 .nav :hover {
   color: rgb(70,70,70);
-
+  padding-top: 50px;
 }
 
 .nav {
   background-color: rgb(111,111,111);
   text-align: center;
+  padding-top: 50px;
 }
 
 .nav a {
   color: white;
   font-size: 26px;
-  padding: 14px 10px;
+  padding-top: 50px;
   font-family: 'Quicksand', sans-serif;
   }
 
 .nav li {
   display: inline;
-  padding: 44px 10px;
+  padding-top: 50px;
 }
 
 .row {
