@@ -1,7 +1,7 @@
 document.write('\
 \
 <div class="nav">\
-<ul aligh="right">\
+<ul align="right">\
       <div class="block">\
           <a href="home.html"><img src="KMine Logo.png" height="100" align="left"></a>\
           <right><li><a href="form.html">Submit</a></li>\
