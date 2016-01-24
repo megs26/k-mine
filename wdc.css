@@ -4,7 +4,7 @@
   margin-left: 25%;
   margin-right: 25%;
   color:  #08298A;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .submit h2 {
@@ -12,18 +12,18 @@
   margin-left: 25%;
   margin-right: 25%;
   font-weight: bold;
-  /*font-family: 'Lato', sans-serif; */
+  /*font-family: 'Quicksand', sans-serif; */
 }
 
 .listing h3 {
   font-size: 28px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .listing p {
   font-size: 18px;
   color:  #08298A;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .main {
